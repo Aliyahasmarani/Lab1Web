@@ -82,7 +82,7 @@ align="right"
 ```
 Tidak akan terjadi error jika penulisannya tidak ada yang salah. terjadi error ketika salah penempatannya.
 ```
-## 2. Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
+## 2. Apa perbedaan dari tag `<p>` dengan tag `<br>`, berikan penjelasannya!
 ```
 - <p> (Paragraf):
 <p> digunakan untuk mengelompokkan teks menjadi paragraf.
