@@ -76,6 +76,87 @@ align="right"
 
 ![Screenshot 2023-09-26 204738](https://github.com/Aliyahasmarani/Lab1Web/assets/115197672/36f94713-da5f-438c-9a29-6c272400851d)
 
+# JAWAB PERTANYAAN BERIKUT
+
+## 1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
+```
+Tidak akan terjadi error jika penulisannya tidak ada yang salah. terjadi error ketika salah penempatannya.
+```
+## 2. Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
+```
+- <p> (Paragraf):
+<p> digunakan untuk mengelompokkan teks menjadi paragraf.
+Ini adalah blok elemen, yang berarti bahwa teks di dalamnya akan dimulai dari baris baru dan memiliki jarak atas dan bawah bawaan.
+Elemen <p> secara otomatis menambahkan spasi kosong di atas dan di bawahnya, sehingga memisahkan teks dalam paragraf dari teks di atas dan di bawahnya.
+<p> digunakan ketika ingin mengatur teks menjadi paragraf terstruktur.
+
+- <br> (Line Break):
+<br> digunakan untuk membuat pemisah baris (line break) dalam teks, sehingga teks berlanjut ke baris berikutnya.
+Ini adalah elemen inline, yang berarti bahwa itu tidak menghasilkan jarak atas dan bawah atau memulai baris baru. Ini hanya memindahkan teks ke baris berikutnya dalam aliran teks yang sama.
+Tag <br> berguna ketika ingin menambahkan spasi antara dua elemen dalam satu baris.
+
+KESIMPULANNYA :
+Jadi, perbedaan utama adalah bahwa <p> digunakan untuk membuat paragraf dengan jarak atas dan bawah, sementara <br> digunakan untuk membuat pemisah baris tanpa jarak atas dan bawah tambahan.
+
+```
+## 3. Apa perbedaan atribut title dan alt pada tag <img>, berikan penjelasannya!
+```
+- Atribut alt (Alternative Text):
+Digunakan untuk memberikan deskripsi singkat tentang gambar kepada pengguna yang tidak dapat melihat gambar tersebut, seperti orang dengan gangguan penglihatan atau dalam situasi di mana gambar tidak dapat dimuat dengan benar.
+Teks alternatif ini akan ditampilkan sebagai teks pengganti jika gambar gagal dimuat atau jika pengguna menggunakan pembaca layar (screen reader) untuk mengakses konten web.
+alt harus diisi dengan deskripsi gambar yang relevan dan informatif agar dapat membantu pengguna memahami konteks gambar tersebut.
+Contoh penggunaan alt: <img src="gambar.jpg" alt="Seorang kucing berwarna putih sedang bermain dengan bola wol.">
+
+- Atribut title:
+digunakan untuk memberikan informasi tambahan tentang gambar ketika pengguna mengarahkan kursor mouse ke atas gambar tersebut.
+Ini adalah atribut opsional yang dapat digunakan untuk memberikan informasi tambahan atau deskripsi lebih lanjut tentang gambar, yang mungkin tidak disertakan dalam teks alternatif.
+Ketika pengguna mengarahkan kursor mouse ke gambar, browser akan menampilkan tooltip (balon bantuan) dengan teks yang ada dalam atribut title.
+Contoh penggunaan title: <img src="gambar.jpg" alt="Seorang kucing berwarna putih sedang bermain dengan bola wol." title="Kucing Putih Sedang Bermain">
+
+KESIMPULANNYA :
+Jadi, perbedaan utama adalah bahwa alt adalah teks alternatif yang penting untuk aksesibilitas dan SEO, sementara title adalah teks tambahan yang muncul sebagai tooltip saat pengguna mengarahkan kursor mouse ke gambar. Keduanya dapat digunakan bersama-sama untuk memberikan informasi yang lebih lengkap tentang gambar, tetapi tujuan dan peran mereka berbeda.
+
+```
+## 4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
+```
+- Mengisi hanya atribut width saja: Jika hanya mengisi atribut width, gambar akan diubah ukurannya sesuai dengan lebar yang ditentukan, sementara tingginya akan mengikuti proporsi asli gambar. Ini akan memastikan gambar tetap proporsional dan tidak terdistorsi. Contoh: <img src="gambar.jpg" alt="Contoh Gambar" width="300">
+
+- Mengisi hanya atribut height saja: Jika hanya mengisi atribut height, gambar akan diubah ukurannya sesuai dengan tinggi yang ditentukan, dan lebarnya akan mengikuti proporsi asli gambar. Ini juga akan memastikan gambar tetap proporsional dan tidak terdistorsi. Contoh: <img src="gambar.jpg" alt="Contoh Gambar" height="200">
+
+- Mengisi kedua atribut width dan height: Jika mengisi kedua atribut width dan height dengan nilai tertentu, gambar dapat menjadi terdistorsi jika nilai-nilai ini tidak sesuai dengan proporsi asli gambar. Ini tidak disarankan kecuali memiliki alasan khusus untuk mengubah proporsi gambar. Contoh: <img src="gambar.jpg" alt="Contoh Gambar" width="300" height="200">
+
+KESIMPULANNYA :
+Jadi, untuk menjaga tampilan gambar tetap proporsional, sebaiknya mengisi hanya salah satu dari kedua atribut width atau height dan biarkan atribut yang lainnya mengikuti proporsi asli gambar. Hal ini akan membantu memastikan bahwa gambar tetap terlihat baik dan tidak terdistorsi.
+
+```
+## 5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top, _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
+```
+Atribut target digunakan dalam elemen HTML <a> (anchor) untuk mengontrol perilaku navigasi saat pengguna mengklik tautan. Nilai atribut target yang dapat digunakan adalah _blank, _self, _top, dan _parent. Berikut adalah penjelasan tentang apa yang terjadi pada masing-masing nilai atribut tersebut:
+
+> _blank:
+
+Ketika tautan diklik dengan target="_blank", halaman atau sumber daya yang ditautkan akan terbuka dalam jendela atau tab baru dalam peramban web.
+Ini mengakibatkan halaman asal (yang memiliki tautan) tetap terbuka di jendela atau tab asal.
+Ini adalah cara umum untuk membuka tautan eksternal atau sumber daya tambahan tanpa meninggalkan halaman asal.
+
+> _self:
+
+Ketika tautan diklik dengan target="_self", halaman atau sumber daya yang ditautkan akan terbuka di jendela atau tab yang sama di mana tautan tersebut ada.
+Ini adalah perilaku default jika Anda tidak menggunakan atribut target atau jika Anda mengaturnya ke _self.
+
+> _top:
+
+Ketika tautan diklik dengan target="_top", halaman atau sumber daya yang ditautkan akan terbuka di jendela atau tab teratas dalam tumpukan jendela atau iframe, menggantikan semua jendela atau iframe yang ada.
+Ini berguna jika Anda memiliki iframe dalam halaman Anda dan ingin tautan membuka sumber daya di jendela utama.
+
+> _parent:
+
+Ketika tautan diklik dengan target="_parent", halaman atau sumber daya yang ditautkan akan terbuka di jendela atau tab yang berisi iframe yang mengandung tautan tersebut.
+Ini berguna jika Anda memiliki iframe dalam halaman Anda dan ingin tautan membuka sumber daya di jendela yang berisi iframe tersebut.
+Pemilihan nilai atribut target akan mempengaruhi cara halaman atau sumber daya eksternal dibuka dan bagaimana interaksi antara halaman asal dan halaman yang ditautkan berperilaku.
+
+```
+
 
 
 
